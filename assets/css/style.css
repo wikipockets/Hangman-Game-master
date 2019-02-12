@@ -1,0 +1,141 @@
+@font-face {
+	font-family: Nintendo;
+	src: url('../fonts/Nintender (WIP).ttf');
+}
+
+@font-face {
+	font-family: Zelda;
+	src: url('../fonts/Triforce.ttf');
+}
+
+@font-face {
+	font-family: Mario;
+	src: url('../fonts/Super Plumber Brothers.ttf');
+}
+
+@font-face {
+	font-family: PressStart;
+	src: url('../fonts/PressStart2P.ttf');
+}
+
+body {
+	background-image: url('../images/stars-background.jpg');
+	color: white;
+}
+
+h1,
+p {
+	font-family: Nintendo;
+	color: #8d734a;
+	padding-top: 1.5%;
+}
+
+p {
+	text-align: justify-all;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: Zelda;
+	color: white;
+	padding: 2% 0 1% 0;
+	/*	font-size: 2.5em;
+*/
+}
+
+h3,
+h4,
+h5 {
+	font-family: Mario;
+	background-color: #d44a00;
+	color: #fec3b7;
+	text-shadow: 0 3px black;
+
+}
+
+#howTo {
+	border: 2px dotted #8d734a;
+}
+
+#howTo,
+#howTo p,
+#hungMario p {
+	font-family: PressStart;
+	background-color: black;
+	color: white;
+	text-shadow: 0 3px black;
+	font-size: 1em;
+}
+
+#howTo p {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+
+#wrongGuesses {
+	font-size: 130%;
+	text-align: justify;
+}
+
+#hangmanGame h3 {
+	padding: 8%;
+
+}
+
+#blankWord {
+	background-color: black;
+}
+
+#hangmanGame,
+#hangmanImg {
+	border: 1px solid white;
+}
+
+#boxArt img {
+	width: 90%;
+	max-width: 100%;
+}
+
+#hangmanImg img {
+	max-width: 80%;
+}
+
+#NEStitle {
+	background-color: black;
+}
+
+#winOrLose,
+#playAgain {
+	font-family: Mario;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}
+
+#winOrLose {
+	font-family: PressStart;
+	font-size: 1.5em;
+}
+
+#startBtn,
+#resetBtn {
+	background-color: #848386;
+	color: #a4423f;
+	font-family: Nintendo;
+	font-size: 150%;
+}
+
+#playAgain p {
+	background-color: #848386;
+	color: #a4423f;
+	font-family: Nintendo;
+	font-size: .8em;
+
+}
+
+#startBtn img,
+#resetBtn img {
+	max-width: 100%
+};

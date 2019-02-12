@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This makes the page auto refresh -->
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>Super Mario Hangman</title>
+
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row" align="center">
+                <div id="starwarsTitle" class="col-8 offset-2">
+                    <h1>Super Mario Hangman Game!</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div id="howToWrapper">
+                    <div class="col-8 offset-2" id="howTo">
+                        <p>How to Play:</p>
+                        <ul>
+                            <li>Click the power button to start</li>
+                            <li>Type in letters and numbers (2 or 3) to see if it's in the word</li>
+                            <li>Click Play Again when you win or lose</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row" align="center">
+                <div class="col-1 offset-3">
+                    <div id="powerLight"><img src="assets/images/power-off.png" alt="power off button"></div>
+                </div>
+                <div class="col-2">
+                    <div id="startBtn">Power</div>
+                </div>
+                <div class="col-2">
+                    <div id="resetBtn">Reset</div>
+                </div>
+            </div>
+            <br>
+            <div class="row" align="center">
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xs-12">
+                    <div id="hangmanGame">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>???????????</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 offset-1">
+                                <h3>Chances Left: <span id="chancesLeft"> </span></h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-10 offset-1" align="left">
+                                <h3>Wrong Guesses: <span id="wrongGuesses"> </span></h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5 offset-1">
+                                <h3>Wins: <span id="wins"> </span></h3>
+                            </div>
+                            <div class="col-5">
+                                <h3>Losses: <span id="losses"> </span></h3>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="boxArt"><img src='assets/images/boo.png' alt='bamboozled'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xs-12">
+                    <div id="hangmanImg">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>GAME OVER</h2>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p><span id="blankWord"></span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12" id="winOrLose"></div>
+                            <div class="col-4 offset-4" id="playAgain"></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="hungMario"></div>
+                                <br>
+                            </div>
+                        </div>
+
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="assets/js/jquery-3.1.1.min.js"></script>
+<script src="assets/js/tether.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script id="didntExpectDb" src="assets/js/db.js"></script>
+<script src="assets/js/javascript.js"></script>
+
+</html>
